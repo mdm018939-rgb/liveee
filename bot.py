@@ -145,7 +145,7 @@ def monitor_liveaccess():
                                     formatted_time = "N/A"
                                 
                                 # 🎯 আপনার কাঙ্ক্ষিত ফরম্যাট অনুযায়ী মেসেজ তৈরি
-                                message = f"💬 <b>Service {sid.upper()}</b>\n"
+                                message = f"💬 <b>SERVICE: {sid.upper()}</b>\n"
                                 message += "━━━━━━━━━━━━━━━━━\n"
                                 
                                 for range_id in ranges:
