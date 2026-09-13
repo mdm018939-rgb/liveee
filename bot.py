@@ -87,7 +87,7 @@ def get_country_flag(phone_number):
 # সব পাঠানো মেসেজ ৩ মিনিট (AUTO_DELETE_SECONDS) পর ডিলিট করা হয়।
 # প্রতিটা মেসেজের নিজস্ব delete_at সময় থাকে, তাই একসাথে সব মুছে যায় না।
 # ══════════════════════════════════════════════════════════
-AUTO_DELETE_SECONDS = 180  # ৩ মিনিট
+AUTO_DELETE_SECONDS = 300  # 5 মিনিট
 delete_queue = []          # [(delete_at_timestamp, bot_instance, chat_id, message_id), ...]
 delete_queue_lock = threading.Lock()
 
